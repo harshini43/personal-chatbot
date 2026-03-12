@@ -8,7 +8,7 @@ Welcome to the **Personal ChatBot** – a simple AI-powered assistant built to a
 
 This project uses **Logistic Regression** and **TF-IDF** for intent classification and is deployed with **Streamlit** for a modern interactive chat experience.
 
-🌐 **Live Demo**: [Click here to try it out!](personal-chatbot-sjbdrbq6vmgxaqsphtwaha.streamlit.app)
+🌐 **Live Demo**: [Click here to try it out!](https://personal-chatbot-sjbdrbq6vmgxaqsphtwaha.streamlit.app/)
 
 ---
 
