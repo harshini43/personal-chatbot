@@ -1,10 +1,6 @@
-Sure! Here's your complete, well-structured `README.md` content written **without code formatting**, ready for you to paste directly into your file:
-
----
-
 # 🤖 Personal ChatBot
 
-Welcome to the **Personal ChatBot** – a simple AI-powered assistant built to answer personal and customized questions about **Perumalla Naga Vidya Amrutha**! 🎓💬
+Welcome to the **Personal ChatBot** – a simple AI-powered assistant built to answer personal and customized questions about **Sanka Naga Sai Harshini**! 🎓💬
 
 This project uses **Logistic Regression** and **TF-IDF** for intent classification and is deployed with **Streamlit** for a modern interactive chat experience.
 
@@ -15,9 +11,9 @@ This project uses **Logistic Regression** and **TF-IDF** for intent classificati
 ## 🔍 Features
 
 * ✅ Intent Detection with **TF-IDF + Logistic Regression**
-* 💬 Chat UI using **Streamlit**
-* 🧠 Pretrained on personalized intents
-* ♻️ Easy to extend with new questions/answers
+* 💬 Interactive Chat UI using **Streamlit**
+* 🧠 Trained on personalized intents
+* ♻️ Easy to extend with new questions and responses
 * 🌍 Fully deployed and publicly accessible
 
 ---
@@ -31,7 +27,6 @@ This project uses **Logistic Regression** and **TF-IDF** for intent classificati
 * `requirements.txt`
 * `.gitignore`
 * `README.md`
-
 
 ---
 
@@ -49,29 +44,29 @@ This project uses **Logistic Regression** and **TF-IDF** for intent classificati
 
 1. Clone the repository:
 
-   ```
-   git clone https://github.com/Perumalla05/personal-chatbot.git
-   cd personal-chatbot
-   ```
+```
+git clone https://github.com/Perumalla05/personal-chatbot.git
+cd personal-chatbot
+```
 
 2. (Optional) Create and activate a virtual environment:
 
-   ```
-   python -m venv venv
-   venv\Scripts\activate  (on Windows)
-   ```
+```
+python -m venv venv
+venv\Scripts\activate
+```
 
 3. Install required packages:
 
-   ```
-   pip install -r requirements.txt
-   ```
+```
+pip install -r requirements.txt
+```
 
-4. Run the app:
+4. Run the chatbot:
 
-   ```
-   streamlit run app.py
-   ```
+```
+streamlit run app.py
+```
 
 ---
 
@@ -80,38 +75,39 @@ This project uses **Logistic Regression** and **TF-IDF** for intent classificati
 1. Loads intent data from `intents.json`
 2. Converts user input into vector format using **TfidfVectorizer**
 3. Predicts the intent tag using **Logistic Regression**
-4. Chooses a random appropriate response from predefined ones
+4. Chooses a random response from the predefined responses
 
 ---
 
 ## 🗣️ Example Questions
 
-Some sample user questions that the bot understands:
+Some questions the chatbot can answer:
 
 * What is your name?
-* Where do you study?
+* Where are you from?
 * What are your hobbies?
 * What is your favorite food?
-* Who is your best friend?
+* What languages do you speak?
 
-You can modify or add your own questions and answers in the `intents.json` file.
+You can modify or add your own questions and responses in the `intents.json` file.
 
 ---
 
 ## 🚀 Future Enhancements
 
-* Add lemmatization, stemming, and stopword removal
-* Integrate speech-to-text and text-to-speech
+* Add text preprocessing (lemmatization, stemming, stopword removal)
+* Add speech-to-text and text-to-speech
 * Store conversation history
-* Use advanced NLP models like spaCy or Transformers
+* Integrate advanced NLP models like spaCy or Transformers
 
 ---
 
 ## 🙋‍♀️ About the Developer
 
-👩‍💻 Developed by **Perumalla Naga Vidya Amrutha**
-🎓 BTech Undergraduate in Artificial Intelligence & Data Science
-📍 Bhimavaram, Andhra Pradesh, India
+👩‍💻 Developed by **Sanka Naga Sai Harshini**
+🎓 BSc (Computers), 3rd Year Student
+🏫 BV Raju College
+📍 Bhimavaram, West Godavari, Andhra Pradesh, India
 
 ---
 
@@ -125,8 +121,6 @@ This project is open-source and free to use for educational purposes.
 
 ```
 git add README.md
-git commit -m "Add detailed README with features and setup guide"
+git commit -m "Updated README with my personal chatbot details"
 git push
 ```
-
----
